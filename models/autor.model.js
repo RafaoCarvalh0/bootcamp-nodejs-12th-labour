@@ -1,5 +1,5 @@
 import Sequelize from "sequelize";
-import db from "../repository/db.mysql.js";
+import db from "../repositories/db.mysql.js";
 
 
 const Autor = db.define("autor", {
